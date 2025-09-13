@@ -71,9 +71,9 @@ fun DosColumnas() {
             horizontalAlignment = Alignment.CenterHorizontally,
             verticalArrangement = Arrangement.Center
         ) {
-            Text(text = "Bienvenido ", color = Color.White)
+            Text(text = "Hola Diego ", color = Color.White)
             Spacer(modifier = Modifier.height(16.dp))
-            Text(text = "Mas contenido", color = Color.White)
+            Text(text = "Fondo de pantalla azul", color = Color.White)
         }
     }
 }
