@@ -64,16 +64,5 @@ fun DosColumnas() {
                 modifier = Modifier.size(100.dp)
             )
         }
-
-        Column(
-            modifier = Modifier.weight(1f).fillMaxHeight()
-                .background(Color(0xFF0D47A1)),
-            horizontalAlignment = Alignment.CenterHorizontally,
-            verticalArrangement = Arrangement.Center
-        ) {
-            Text(text = "Bienvenido ", color = Color.White)
-            Spacer(modifier = Modifier.height(16.dp))
-            Text(text = "Mas contenido", color = Color.White)
-        }
     }
 }
