@@ -48,7 +48,7 @@ fun DosColumnas() {
         modifier = Modifier.fillMaxSize()
     ) {
         Column(
-            modifier = Modifier.weight(1f).fillMaxHeight().background(Color.Red),
+            modifier = Modifier.weight(1f).fillMaxHeight().background(Color.Green),
             horizontalAlignment = Alignment.CenterHorizontally,
             verticalArrangement = Arrangement.Center
         ) {
